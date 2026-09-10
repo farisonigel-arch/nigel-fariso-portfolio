@@ -24,6 +24,7 @@ body {
     font-family: Inter, Arial, sans-serif;
     line-height: 1.65;
 }
+
 body.menu-open { overflow: hidden; }
 a { color: inherit; text-decoration: none; }
 button, input, textarea { font: inherit; }
