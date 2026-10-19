@@ -6,10 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
         name="description"
-        content="Professional software developer portfolio showcasing skills, projects, experience and contact information."
+        content="Nigel Fariso is an aspiring full-stack software developer building responsive web applications with HTML, CSS, JavaScript, React, Python and Django. Explore projects, certifications, skills and experience, and get in touch to collaborate."
     >
-    <title>Professional Portfolio | Software Developer</title>
+    <meta
+        name="keywords"
+        content="Nigel Fariso, software developer portfolio, full-stack developer, frontend developer, backend developer, React developer, Python Django developer, web developer Zimbabwe, JavaScript projects, software engineering portfolio"
+    >
+    <meta name="author" content="Nigel Fariso">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://nigel-fariso-portfolio-sdyv-ten.vercel.app/">
+
+    <!-- Open Graph / Social sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Nigel Fariso | Aspiring Full-Stack Software Developer Portfolio">
+    <meta property="og:description" content="Explore Nigel Fariso's portfolio of full-stack web development projects, technical skills, certifications and professional experience.">
+    <meta property="og:url" content="https://nigel-fariso-portfolio-sdyv-ten.vercel.app/">
+    <meta property="og:site_name" content="Nigel Fariso Portfolio">
+    <meta property="og:image" content="https://nigel-fariso-portfolio-sdyv-ten.vercel.app/assets/images/og-cover.png">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nigel Fariso | Aspiring Full-Stack Software Developer Portfolio">
+    <meta name="twitter:description" content="Full-stack software developer portfolio featuring projects, certifications, skills and experience in HTML, CSS, JavaScript, React, Python and Django.">
+    <meta name="twitter:image" content="https://nigel-fariso-portfolio-sdyv-ten.vercel.app/assets/images/og-cover.png">
+
+    <title>Nigel Fariso | Aspiring Full-Stack Software Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Structured data for search engines -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nigel Fariso",
+        "url": "https://nigel-fariso-portfolio-sdyv-ten.vercel.app/",
+        "jobTitle": "Aspiring Full-Stack Software Developer",
+        "description": "Software developer focused on frontend development, backend systems, databases and practical web application development.",
+        "email": "mailto:farisonigel@gmail.com",
+        "sameAs": [
+            "https://github.com/farisonigel-arch",
+            "https://nigel-fariso-portfolio-sdyv-ten.vercel.app/"
+        ],
+        "knowsAbout": [
+            "HTML", "CSS", "JavaScript", "React", "Python", "Django", "PostgreSQL", "REST APIs"
+        ]
+    }
+    </script>
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -17,9 +60,7 @@
     <header class="site-header" id="top">
         <nav class="navbar container" aria-label="Primary navigation">
             <a class="brand" href="#home" aria-label="Portfolio home">
-                <span class="brand-mark">&lt;
-                    <span class="brand-name">Nigel</span>
-                    /&gt;</span>
+                <span class="brand-mark">&lt;<strong class="slash">/</strong>&gt;<span class="brand-name">Nigel</span></span>
                 <span class="brand-title">Portfolio</span>
             </a>
 
@@ -38,6 +79,7 @@
                 <a class="active" href="#home">Home</a>
                 <a href="#profile">Profile</a>
                 <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
@@ -62,10 +104,10 @@
                     </p>
 
                     <div class="hero-actions">
-                        <a class="btn btn-primary" href="#projects">View My Projects</a>
-                        <a class="btn btn-secondary" href="assets/resume/Nigel-Fariso-Resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
-                        <a class="btn btn-resume" href="assets/resume/Nigel-Fariso-Resume.pdf" download>Download Resume</a>
-                        <a class="btn btn-secondary" href="#contact">Let's Connect</a>
+                        <a class="btn btn-primary" href="#contact">Let's Connect</a><br>
+                        <a class="btn btn-secondary" href="#projects">View My Projects</a><br>
+                        <a class="btn btn-resume" href="./assets/resume/Nigel Fariso - CV.pdf" download>Download Resume</a>
+
                     </div>
 
                     <div class="hero-stats">
@@ -178,23 +220,23 @@
                         <div class="panel-icon">⌘</div>
                         <h3>Frontend</h3>
                         <p>Interfaces, responsive design and modern UI development.</p>
-                        
+
                         <div class="skill-list">
                             <div class="skill-item">
                                 <span>🌐</span>
                                 <p>HTML5</p>
                             </div>
-                            
+
                             <div class="skill-item">
                                 <span>🎨</span>
                                 <p>CSS3</p>
                             </div>
-                            
+
                             <div class="skill-item">
                                 <span>JS</span>
                                 <p>JavaScript</p>
                             </div>
-                            
+
                             <div class="skill-item">
                                 <span>⚛</span>
                                 <p>React</p>
@@ -286,8 +328,115 @@
             </div>
         </section>
 
+        <!-- Certifications -->
+        <section class="section section-dark" id="certifications">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">CERTIFICATIONS</p>
+                    <h2>Continuous Learning & Professional Development</h2>
+                    <p>Professional certifications and learning achievements across product design, digital marketing and software development.</p>
+                </div>
+
+                <div class="project-filters reveal" role="group" aria-label="Filter certifications">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="design">Product design</button>
+                    <button class="filter-btn" data-filter="marketing">Digital marketing</button>
+                    <button class="filter-btn" data-filter="software">Software Development</button>
+                </div>
+
+                                <div class="projects-grid" id="certGrid">
+                    <article class="project-card reveal" data-category="software">
+                        <div class="project-art art-one"><span>&lt;/&gt;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">SOFTWARE DEVELOPMENT</span>
+                            <h3>Building RESTful APIs with Node.js and Express</h3>
+                            <p>Issuing Institution — Board Infinity · Coursera</p>
+                            <a href="assets/certifications/software-development/building-restful-apis-nodejs-express.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="software">
+                        <div class="project-art art-two"><span>&lt;/&gt;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">SOFTWARE DEVELOPMENT</span>
+                            <h3>Crash Course on Python</h3>
+                            <p>Issuing Institution — Google · Coursera</p>
+                            <a href="assets/certifications/software-development/crash-course-on-python.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="marketing">
+                        <div class="project-art art-three"><span>&#128161;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">DIGITAL MARKETING</span>
+                            <h3>Fundamentals of Digital Marketing</h3>
+                            <p>Issuing Institution — Google Garage</p>
+                            <a href="assets/certifications/digital-marketing/fundamentals-of-digital-marketing.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="design">
+                        <div class="project-art art-four"><span>&#127912;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">PRODUCT DESIGN</span>
+                            <h3>Core UI Components</h3>
+                            <p>Issuing Institution — Uxcel</p>
+                            <a href="assets/certifications/design/core-ui-components.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="design">
+                        <div class="project-art art-five"><span>&#127912;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">PRODUCT DESIGN</span>
+                            <h3>Wireframing</h3>
+                            <p>Issuing Institution — Uxcel</p>
+                            <a href="assets/certifications/design/wireframing.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="design">
+                        <div class="project-art art-one"><span>&#127912;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">PRODUCT DESIGN</span>
+                            <h3>Design Composition</h3>
+                            <p>Issuing Institution — Uxcel</p>
+                            <a href="assets/certifications/design/design-composition.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="design">
+                        <div class="project-art art-two"><span>&#127912;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">PRODUCT DESIGN</span>
+                            <h3>UX Research</h3>
+                            <p>Issuing Institution — Uxcel</p>
+                            <a href="assets/certifications/design/ux-research.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="design">
+                        <div class="project-art art-three"><span>&#127912;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">PRODUCT DESIGN</span>
+                            <h3>UX Design Foundations</h3>
+                            <p>Issuing Institution — Uxcel</p>
+                            <a href="assets/certifications/design/ux-design-foundations.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                    <article class="project-card reveal" data-category="software">
+                        <div class="project-art art-four"><span>&lt;/&gt;</span></div>
+                        <div class="project-body">
+                            <span class="project-type">SOFTWARE DEVELOPMENT</span>
+                            <h3>Introduction to Basic Game Development using Scratch</h3>
+                            <p>Issuing Institution — Coursera · Freedom Learning Group</p>
+                            <a href="assets/certifications/software-development/introduction-to-game-development-scratch.pdf" class="text-link" target="_blank" rel="noopener noreferrer">View Certificate →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="cert-pagination" id="certPagination">
+                    <button class="filter-btn view-less-btn" id="viewLessBtn" type="button">View less</button>
+                    <button class="filter-btn view-more-btn" id="viewMoreBtn" type="button">View more</button>
+                </div>
+            </div>
+        </section>
+
         <!-- Experience -->
-        <section class="section section-dark" id="experience">
+        <section class="section section-muted" id="experience">
             <div class="container">
                 <div class="section-heading reveal">
                     <p class="eyebrow">EXPERIENCE & GROWTH</p>
@@ -325,7 +474,7 @@
         </section>
 
         <!-- Projects -->
-        <section class="section section-muted" id="projects">
+        <section class="section section-dark" id="projects">
             <div class="container">
                 <div class="section-heading reveal">
                     <p class="eyebrow">SELECTED WORK</p>
@@ -382,17 +531,6 @@
                         <div class="project-art art-four"><span>04</span></div>
                         <div class="project-body">
                             <span class="project-type">FRONTEND</span>
-                            <h3>Responsive Planner</h3>
-                            <p>A browser-based planner interface featuring dashboard, tasks, notes and calendar-oriented sections.</p>
-                            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-                            <a href="#contact" class="text-link">Discuss project →</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card reveal" data-category="frontend">
-                        <div class="project-art art-five"><span>05</span></div>
-                        <div class="project-body">
-                            <span class="project-type">FRONTEND</span>
                             <h3>Professional Portfolio</h3>
                             <p>The evolving portfolio concept redesigned as a clean, responsive and accessible standalone website.</p>
                             <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
@@ -400,8 +538,8 @@
                         </div>
                     </article>
 
-                    <article class="project-card reveal" data-category="fullstack">
-                        <div class="project-art art-six"><span>06</span></div>
+                    <article class="project-card reveal" data-category="frontend">
+                        <div class="project-art art-five"><span>05</span></div>
                         <div class="project-body">
                             <span class="project-type">FULL STACK</span>
                             <h3>Event Registration App</h3>
@@ -416,20 +554,31 @@
                             </a>
                         </div>
                     </article>
+
+                    <article class="project-card reveal" data-category="fullstack">
+                        <div class="project-art art-six"><span>06</span></div>
+                        <div class="project-body">
+                            <span class="project-type">FRONTEND</span>
+                            <h3>Responsive Planner</h3>
+                            <p>A browser-based planner interface featuring dashboard, tasks, notes and calendar-oriented sections.</p>
+                            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <a href="#contact" class="text-link">Discuss project →</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
 
         <!-- Contact -->
-        <section class="section section-dark" id="contact">
+        <section class="section section-muted" id="contact">
             <div class="container contact-layout">
                 <div class="contact-copy reveal">
                     <p class="eyebrow">GET IN TOUCH</p>
                     <h2>Let's Build Something Useful</h2>
                     <p>
                         Interested in discussing a project, collaboration, opportunity or
-                        software idea? Send a message using the form and this provisional
-                        portfolio will validate your input in the browser.
+                        software idea? Send a message using the form and this portfolio
+                        will validate your input in the browser.
                     </p>
 
                     <div class="contact-points">
@@ -453,7 +602,7 @@
                            <span class="social-icon github-icon">
                             GH</span>
                         </a>
-                        
+
                         <a href="https://nigel-fariso-portfolio-sdyv-ten.vercel.app/"
                            target="_blank"
                            rel="noopener noreferrer"
@@ -494,9 +643,9 @@
 
     <footer class="site-footer">
         <div class="container footer-content">
-            <a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>Portfolio</span></a>
+            <a class="brand" href="#top"><span class="brand-mark">&lt;/&gt;</span><span>Portfolio</span></a>
             <p>© <span id="year"></span> Nigel Fariso. A Professional Portfolio.</p>
-            <a class="back-top" href="#top">Back to top ↑</a>
+            <a class="back-top" href="#home">Back to top ↑</a>
         </div>
     </footer>
 
